@@ -1,0 +1,295 @@
+.header{
+    background: white;
+    width:450px;
+    border: 1px solid transparent;
+    position:absolute;
+    top:100px;
+    right:20px;
+    border-radius: 5px;
+    height: 250px;
+}
+.campaign{
+    width: 325px;
+    border: 1px solid transparent;
+    border-color: black;
+    border-radius: 10px;
+    margin: 8px;
+    height: 95px;
+}
+.line_campaign{
+    width: 300px;
+    margin-block: 0px;
+    margin-top: 10px;
+    border-color: black;
+}
+.txt_campaign{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 10px;
+    text-align: left;
+    padding-left: 10px;
+    text-indent: 0%;
+    font-size: 13px;
+    margin-block: 0px;
+    display: flex;
+}
+.campaign_content{
+    display: grid;
+    grid-template-columns: 150px 100px 150px;
+    gap: 3rem;
+}
+.tools_header{
+    display: flex;
+    align-items: center;
+    margin-left: 11px;
+    margin-right:30px;
+    border: 1px solid transparent;
+    border-color: black;
+    border-radius: 20px;
+    height: 13px;
+    margin-top: 10px;
+}
+.txt_tools_header{
+    font-size:10px;
+    font-weight: 600;
+    padding-left: 20px;
+    margin-top: 16px;
+    color: black;
+}
+.icon_calc{
+     color:  #0e3422;
+     font-size:10px;
+     position: relative;
+     left: 10px;
+}
+.tools_icon{
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.icon_hubspot{
+    padding-right: 5px;
+    font-size: 17px;
+    color: rgb(20, 70, 10);
+}
+.icon_trello{
+    padding-right: 5px;
+    font-size: 17px;
+    color: rgb(20, 70, 10);
+}
+.icon_slack{
+    padding-right: 5px;
+    font-size: 17px;
+    color: rgb(20, 70, 10);
+}
+.icon_clickup{
+    padding-right: 5px;
+    font-size: 17px;
+    color: rgb(20, 70, 10);
+}
+.icon_fb{
+    padding-right: 5px;
+    font-size: 17px;
+    color: rgb(20, 70, 10);
+}
+.email{
+    color: black;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    right: 50px;
+}
+.txt_email{
+    display: flex;
+    margin-block: 0px;
+    font-size: 10px;
+}
+.no_email{
+    display: flex;
+    margin-block: 0px;
+    font-size: 15px;
+    font-weight: 1000;
+    color: rgb(20, 70, 10);
+}
+.growth{
+    display: flex;
+}
+.arrow_up{
+    font-size: 15px;
+    color: green;
+}
+.txt_growth{
+    margin-block: 0px;
+    font-size: 10px;
+    color: green;
+}
+.email{
+    justify-content: center;
+}
+
+.transaction_revenue{
+    position: relative;
+    right: 120px;
+}
+
+.txt_transaction{
+    position: relative;
+    top: 10px;
+    font-size: 10px;
+    color: black;
+   
+}
+.no_transcation{
+    position: relative;
+    bottom: 5px;
+    margin-block: 0px;
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(20, 70, 10);
+}
+.arrow_up_Transaction{
+    font-size: 15px;
+    color: green;
+    position: relative;
+    bottom: 5px;
+}
+.transcation_txt_growth{
+    position: relative;
+    bottom: 5px;
+    margin-block: 0px;
+    font-size: 10px;
+    color: green;
+}
+
+.icon_dolar{
+    font-size: 8px;
+    color: rgb(20, 70, 10);
+    margin-left: 5px;
+}
+
+.div_no_transaction{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.campaign_ads{
+    width: 325px;
+    border: 1px solid transparent;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    display:grid;
+    grid-template-columns: 165px 165px 165px;
+    height: 127px;
+}
+.campaign_ads_container{
+    margin-block: 0px;
+    height: 60px;
+}
+.campaign_txt_ads{
+    color: black;
+    display: flex;
+    margin-block: 0px;
+    font-size: 9px;
+    font-weight: bold;
+}
+.campaign_amt_ads_container{
+    display: flex;
+    margin-block: 0px;
+}
+.campaign_amt_ads{
+    color: #0e3422;
+    font-size: 20px;
+    display: flex;
+    margin-block: 0px;
+    font-weight: 1000;
+}
+.campaign_amt_substands{
+    color: #0e3422;
+    display: flex;
+    margin-block: 0px;
+    margin-top: 7px;
+    margin-left: 2px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.campaign_icon_dollar_ads{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #0e3422;
+}
+
+.spent_text{
+    color: #0e3422;
+    font-size: 9px;
+}
+.campaign_ads_percentage{
+    display: flex;
+    margin-block: 0px;
+    color: green;
+    font-size: 10px;
+}
+.inside_campaign_container { 
+    background-color: rgb(192, 192, 192);  
+    border-radius: 15px; 
+   
+} 
+
+.campaign_skill { 
+    background-color: rgb(10, 70, 20); 
+    color: white; 
+    padding: 3%; 
+    text-align: right; 
+    border-radius: 15px; 
+    margin-top: 2px;
+} 
+.google_ads{
+    width:62%;
+}
+.facebook_ads{
+    width: 46%;
+}
+.instagram_ads{
+    width: 21%;
+}
+.conversion{
+    margin-block: 0px;
+    height: 50px;
+}
+
+
+.no_conversion{
+    display: flex;
+    margin-block: 0px;
+    font-size: 10px;
+    font-weight: 1000;
+    color: rgb(20, 70, 10);
+    margin-left:15px;
+    padding-top: 25px;
+}
+.txt_conversion{
+    display: flex;
+    margin-block: 0px;
+    font-size: 8px;
+    margin-left:15px;
+    color: black;
+}
+.adss{
+    width: 300px;
+    color: black;
+    position: absolute;
+    top: -105px;
+    left: -10px;
+}
+.adsss {
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.conversionnnn{
+    color: black;
+}

@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-block: 0px;
+  }
+  .options_container{
+      display: grid;
+      grid-template-columns: 100px 100px 100px;
+      gap:1rem;
+  }
+  .txt_autodate{
+      font-size: 9px;
+      padding-left: 5px;
+  }
+  /* options css */
+  .txt_autodate_container{
+      display: grid;
+      grid-template-rows: 1fr, 1fr;
+      margin-block: 0px;
+      font-size: 10px;
+      padding-left: 5px;
+      text-align: left;
+      padding: 5px;
+  }
+  .tools_autodate{
+      display: flex;
+      align-items: center;
+      margin-left: 5px;
+      border: 1px solid transparent;
+      border-color: black;
+      border-radius: 50px;
+      height: 12px;
+      margin-bottom: 8px;
+      font-size:11px ;
+      margin-block: 0px;
+      margin-top: 3px;
+  }
+  .icon_calc{
+       padding-left: 5px;
+       font-size: 15px;
+  }
+  .txt_autodate_header{
+      font-size: 10px;
+      padding-left: 2px;
+  }
+  
+  .txt_services{
+      font-size: 9px;
+      padding-left: 5px;
+      text-align: left;
+      margin-top: 5px;
+  }
+  .drop_down_menu_services{
+      border-radius: 10px;
+      justify-content: left;
+      display: flex;
+      margin-top: 3px;
+      font-size: 10px;
+      width: 80px;
+      margin-left: 2px;
+  }
+  .options_services{
+      font-size: 10px;
+  }
+  
+  
+  
+  /* score card css */
+  #cardContainer {
+    border: 1px solid green;
+    width: 477px;
+    height: auto;
+    border-radius: 11px;
+  }
+  
+  .score {
+    margin-block: 0px;
+    padding-right: 15px;
+  }
+  
+  .scoreData {
+    display: flex;
+    flex-direction: row;
+    color: lightgreen;
+    font-size: 10px;
+    margin-left: 15px;
+    padding: 2px;
+  }
+  .icon_arrow{
+      margin-top: 2px;
+      padding-left: 2px;
+  }
+  
+  .description {
+      text-align: left;
+      margin-block-start: 0px;
+    font-size: 7px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .countScore {
+    color: rgb(20, 70, 10);
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: left;
+    padding-left: 5px;
+  }
+  
+  #scoreContainer {
+    display: flex;
+    margin-top: 5px;
+    gap:0.5rem;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  .perecentageIcon {
+    font-size: 15px;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+  
+  .percentageScore {
+    color: #1b411b;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .title{
+      font-size: 10px;
+      text-align: left;
+      padding-left:5px ;
+  }
+  
+  .percentageWrapper {
+    width: 38%;
+  }
+  
+  .percentageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    
+  }
+  
+  #chartContainer {
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: -7%;
+  }

@@ -1,0 +1,572 @@
+
+.search-font{
+font-size:30px;
+color: white;
+}
+
+.cocaola{
+font-size: 70px;
+position: relative;
+left: 18px;
+}
+
+
+.full{
+  background-color: #0f5132;
+  color: white;
+  height: 130vh;
+}
+.img-logo{
+    padding-top: 10px;
+}
+.Dashboard p{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.allname{
+    padding-top:100px;
+}
+.font-style{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+/*start Sidebar Styles */
+.side {
+    position: fixed;
+    top:240px;
+    bottom: 0;
+    overflow-y: scroll; 
+    height: 60vh; 
+    width: 250px; 
+    background-color: #0f5132; 
+    border-right: 1px solid #0f5132; 
+    padding-top: 5px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+   
+}
+
+
+
+.side .nav-link {
+    color:white; 
+    padding: 10px 20px; 
+    display: block; 
+    text-decoration: none; 
+    height: 100%;
+    font-size: 17px;
+    
+}
+
+.side .nav-link:hover {
+    color: #f6f8fa; 
+    background-color: #0e3422;
+    border-radius: 4px;
+    
+}
+
+.side .font-style {
+    margin-right: 10px; 
+}
+
+.side .img-logo {
+    position: fixed;
+    top: 0px; 
+    margin-bottom: 100px; 
+    z-index: 1; 
+}
+
+.side .Dashboard p{
+    position: fixed; 
+    top:200px;
+    margin-bottom: 100px; 
+    z-index: 1; 
+}
+
+.side .allname {
+    margin-top: 200px; 
+}
+
+.side::-webkit-scrollbar {
+    width: 13px;
+}
+
+.side::-webkit-scrollbar-thumb {
+    background-color: rgba(240, 248, 255, 0.416); 
+    border-radius: 5px;
+    height: 6px;
+}
+
+
+
+
+
+
+
+
+/* end Sidebar Styles*/
+
+main{
+    height: 100vh;
+}
+.emt-box{
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(240, 248, 255, 0.416);
+    border-radius: 5px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 5px;
+}
+
+
+
+
+
+/* total-head*/
+
+.total-head{
+    background-color:white;
+    border-radius: 5px;
+    height: 400px;
+    width: 500px;
+    padding: 5px;
+    position: absolute;
+    top:100px;
+    left: 30px;
+    margin-right:20px;
+    font-size: 1px;
+}
+
+.social-head{
+    background-color: white;
+    border: 1px solid black; 
+    border-radius: 10px;
+    height: 120px;
+    width: 350px;
+    color: #0e3422;
+    position: relative;
+    left: 15px;
+    padding-right: 25px;       
+}
+
+.social-head p{
+    padding-left: 12px;
+    padding-top: 5px;
+    font-size: 11px;
+    font-weight: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    
+}
+
+.custom{
+    border-color:black;
+    position: relative;
+    bottom: 17px;
+    margin-left: 12px;  
+}
+
+
+.brand-list  h5{
+    font-weight:bolder;
+    font-size: 20px;
+    position: relative;
+    bottom: 35px;
+    left: 3px;
+}
+
+.brand-list p {
+   position: relative;
+   bottom: 50px;
+   right: 9px;
+   
+}
+
+.brand-list a{
+    position: relative;
+    bottom: 62px;
+    right: 46px;
+    
+}
+
+.font{ 
+    font-size: 20px;
+    color: #0f5132;
+}
+
+.font-color{
+    position: relative;
+    top: 5px;
+    right:-35px;
+    font-size: 10px;
+    color: white;
+    border-radius: 10px;
+    width:22px;
+    background-color:rgb(11, 174, 11);
+}
+
+
+
+.para-single {
+    position: relative;
+    bottom: 35px;
+    margin-top: -27px; 
+    padding-left: 3px; 
+    padding-right: 3px;
+    font-size: 8px;
+    width: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* Analytic Card */
+
+.Analytic-card-head{
+    background-color: white;
+    border: 1px solid black; 
+    border-radius: 10px;
+    height: 260px;
+    width: 350px;
+    padding: 70px;
+    color: #0e3422; 
+    position: relative;
+    bottom:275px; 
+    right: 15px;  
+}
+
+.Analytic{
+    font-size: 12px;
+    font-weight: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*facebook & Instagram*/
+
+.custom-hr-two{
+    border-color:black;
+    position: relative;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top: 25px;  
+}
+
+.facebook{
+    background-color: white;
+    border: 1px solid black; 
+    border-radius: 5px;
+    height: 155px;
+    width: 135px;
+    color: #0e3422;
+    position: relative;
+    left: 5px;
+      
+}
+
+.facebook p{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: none;
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    position: relative;
+    bottom:20px; 
+}
+
+.flex-box{
+    width: 50px;
+    height: 40px;
+    background:linear-gradient(180deg,#0e3422,#757875eb);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 9px;
+}
+
+.flex-box p{
+    font-size:8px;  
+}
+
+#tri-icon{
+    color: darkgreen;
+    font-size: 12px;
+}
+
+.flex-boxone{
+    position: relative;
+    top: 2px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:' sans-serif';
+}
+
+
+#dollar-icon{
+    color: darkgreen;
+}
+
+/*Twitter*/
+
+.Twitter{
+    background-color: white;
+    border: 1px solid black; 
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 69px;
+    width: 135px;
+    color: #0e3422;
+    position: relative;
+    left: 3px;
+}
+
+.Twitter p{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: none;
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-box-Twitter{
+    width: 80px;
+    height: 16.9px;
+    background:linear-gradient(180deg,#0e3422,#aab5ac);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 10px;
+    margin-top:29px;
+    
+    
+}
+
+
+
+/*Cocacola*/
+
+.banner_container{
+    background-color: white;
+    height: 250px;
+    width :55%;
+    position: absolute;
+    top:510px;
+    left:4px;
+    border: 0.1px solid transparent;
+    margin-left: 26px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.cola_banner_container{
+    position: relative;
+    left:12px;
+    height: 230px;
+    width: 23%;
+    border: 1px solid transparent;
+    border-color: black;
+    margin: 10px;
+    border-radius: 10px;
+}
+.cola_banner_container-two{
+    position: relative;
+    left:12px;
+    height: 230px;
+    width: 15%;
+    border: 1px solid transparent;
+    border-color: black;
+    margin: 10px;
+    border-radius: 10px; 
+}
+.txt_cola{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid transparent;
+    border-color: black;
+    height: 22px;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: black;
+}
+.grid_week_month{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cola_ads_container{
+    position: relative;
+    left:10px;
+    bottom:70px;
+}
+
+.amt_ads_container{
+    display: flex;
+    margin-block: 0px;
+    margin-left: 1px;
+}
+.amt_ads_cola{
+    font-size: 20px;
+    display: flex;
+    margin-block: 0px;
+    font-weight: bolder;
+    color: rgb(10, 70, 20);
+}
+.amt_substands_cola{
+    font-size: 13px;
+    display: flex;
+    margin-block: 0px;
+    margin-top: 7.5px;
+    font-weight: bolder;
+    color: rgb(10, 70, 20);
+}
+.icon_dollar_ads_cola{
+    margin-top: 9px;
+    font-size: 9px;
+    font-weight: bolder;
+    color: rgb(10, 70, 20);
+}
+.ads_spent_txt{
+    display: flex;
+    margin-block: 0px;
+    margin-left: 2px;
+    font-size: 8px;
+    font-weight:800;
+    color: black;
+}
+.ads_percentage{
+    display: flex;
+    margin-block: 0px;
+    margin-left: 5px;
+    color: green;
+    font-size: 10px;
+}
+.container_progress_cola { 
+    background-color: rgb(192, 192, 192); 
+    width: 80%; 
+    border-radius: 15px; 
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+.skill { 
+    background-color: rgb(10, 70, 20); 
+    color: white; 
+    padding: 3%; 
+    position: relative; 
+    right: 8px;
+    border-radius: 15px; 
+} 
+.cola_ads{
+    width:39%;
+}
+.logo_coca{
+    position: relative;
+    left: 53px;
+    bottom: 40px;
+    width:60px;
+    height:100px;
+    color: rgb(10, 70, 20);
+}
+.amt_ads_container_week{
+    display: flex;
+    margin-block: 0px;
+    margin-left: 10px;
+}
+
+/*Buffer*/
+
+.buffer-logo{
+    position: relative;
+    left: 28px;
+    bottom: 40px;
+    width:20px;
+    height:100px;
+    color: rgb(10, 70, 20); 
+}
+
+.buffer-name{
+    position: relative;
+    left: 30px;
+    bottom:1px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(10, 70, 20); 
+}
+
+/*Hootsuite-logo*/
+
+
+.Hootsuite-logo{
+    position: relative;
+    left: 28px;
+    bottom: 40px;
+    width:20px;
+    height:100px;
+    color: rgb(10, 70, 20); 
+}
+
+.Hootsuite-name{
+    position: relative;
+    left: 30px;
+    top: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(10, 70, 20); 
+}
+
+/*Zoho*/
+
+.logo_Zoho{
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    width:60px;
+    height:100px;
+    color: rgb(10, 70, 20);
+}
+
+/*Salesforce*/
+
+.logo_Salesforce{
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    width:45px;
+    height:100px;
+    color: rgb(10, 70, 20);
+}
+
+.txt_cola-other{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid transparent;
+    border-color: black;
+    height: 22px;
+    width: 83%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: black;
+}

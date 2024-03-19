@@ -1,0 +1,14 @@
+.status_head{
+     width: 275px;
+     height:148px; 
+     border-radius: 15px;
+     background-color: white;
+     position: relative;
+     left: 325px;
+     top:395px;
+
+}
+
+.cardheader{
+    font-size: 10px;
+}

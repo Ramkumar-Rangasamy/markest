@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-block: 0px;
+  }
+  .options_container9{
+      display: grid;
+      grid-template-columns: 100px 100px 90px;
+      gap:3rem; 
+  }
+  .txt_autodate9{
+      font-size: 10px;
+      padding-left:10px;
+      color: black;
+      
+  }
+  /* options css */
+  .tools_autodate9{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    border-color: black;
+    border-radius: 50px;
+    height: 12px;
+    margin-bottom: 18px;
+    font-size:11px ;
+    margin-block: 0px;
+    position: relative;
+    bottom: 13px;
+    left:10px;
+}
+
+  .tools_autodate9{
+      display: flex;
+      align-items: center;
+      margin-left: 5px;
+      border-radius: 50px;
+      height: 12px;
+      margin-bottom: 8px;
+      font-size:11px ;
+      margin-block: 0px;
+  }
+  .icon_calc9{
+       padding-left: 5px;
+       font-size: 15px;
+       color:  #0e3422;
+  }
+  .txt_autodate_header9{
+      font-size: 10px;
+      padding-left: 2px;
+      margin-top: 16px;
+      color: black;
+      
+  }
+  .service_dropdown9_post{
+    position: relative;
+    right: 37px;
+  }
+  
+  .txt_services9{
+      font-size: 11px;
+      text-align: left;
+      margin-top: 5px;
+      color: black;
+      position: relative;
+      right: 20px; 
+  }
+  .drop_down_menu_services9{
+      border-radius: 10px;
+      font-size: 10px;
+      width: 80px;
+      position: relative;
+      bottom: 20px; 
+      right: 22px;
+  }
+  .options_services9{
+      font-size: 12px;
+  }
+  
+  
+  
+  /* score card css */
+  #cardContainer9 {
+    border: 1px solid green;
+    width: 477px;
+    height: auto;
+    border-radius: 11px;
+  }
+  
+  .score9 {
+    margin-block: 0px;
+    padding-right: 15px;
+  }
+  
+  .scoreData9 {
+    display: flex;
+    flex-direction: row;
+    color: lightgreen;
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 2px;
+  }
+  .icon_arrow9{
+      margin-top: 2px;
+      padding-left: 2px;
+  }
+  
+  .description9 {
+    text-align: left;
+    margin-block-start: 0px;
+    font-size: 9px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .countScore9 {
+    color: rgb(20, 70, 10);
+    font-size: 17px;
+    font-weight: 1000;
+    text-align: left;
+    padding-left: 5px;
+  }
+  
+  #scoreContainer9 {
+    display: flex;
+    text-align: center;
+    padding-right: 5px;
+    padding-left:15px;
+  }
+  
+  .perecentageIcon9 {
+    font-size: 17px;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
+  
+  .percentageScore9 {
+    color: hsl(120, 41%, 18%);
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .title9{
+      font-size: 8px;
+      text-align: left;
+      padding-left:5px ;
+      color: black;
+  }
+  
+  .percentageWrapper9 {
+    width: 38%;
+  }
+  
+  .percentageContainer9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    
+  }
+  
+  #CartContainer9 {
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: -7%;
+  }
